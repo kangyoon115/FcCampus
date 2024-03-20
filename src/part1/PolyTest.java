@@ -16,7 +16,9 @@ public class PolyTest {
         //Donwcasting 다운케스팅
         ani= new Cat();
         ani.eat();
-        ((Cat).ani).night();
+        ((Cat)ani).night();
+        //Overloading 정적바인딩=컴파일시점에서 사용된 메서드가 결정되는 바인딩
+
 
     }
 
