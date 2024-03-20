@@ -1,5 +1,6 @@
 package part1;
 
+import fcjava.model.Animal;
 import fcjava.model.Cat;
 import fcjava.model.Dog;
 
@@ -11,12 +12,13 @@ public class PolyMethodTest {
         display(c);
     }
 
-    private static void display(Cat c) {
-        c.eat();
-    }
+    private static void display(Animal ani) {//다형성인수
+        ani.eat();
+        //Cat타입으로 받은 경우에만 실행
+        if(ani instanceof Cat){ //instanceof:타입확인연산자
+            ((Cat)ani).night();
+        }
 
-    private static void display(Dog d){
-        d.eat();
     }
 
 }
