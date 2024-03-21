@@ -1,6 +1,7 @@
 package part1;
 
-import fcjava.model.*;
+import Poly.Cat;
+import Poly.Dog;
 
 public class DogCatTest {
     public static void main(String[] args) {

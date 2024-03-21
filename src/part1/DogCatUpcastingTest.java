@@ -1,8 +1,8 @@
 package part1;
 
-import fcjava.model.Animal;
-import fcjava.model.Cat;
-import fcjava.model.Dog;
+import Poly.Animal;
+import Poly.Cat;
+import Poly.Dog;
 
 public class DogCatUpcastingTest {
     public static void main(String[] args)

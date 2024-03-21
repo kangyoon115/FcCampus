@@ -1,6 +1,8 @@
 package part1;
 
-import fcjava.model.*;
+import Poly.Animal;
+import Poly.Cat;
+import Poly.Dog;
 
 public class ObjectCasting {
     public static void main(String[] args) {
