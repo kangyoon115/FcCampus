@@ -1,7 +1,7 @@
 package part1;
 
-import Poly.Cat;
-import Poly.Dog;
+import poly.Cat;
+import poly.Dog;
 
 public class DogCatTest {
     public static void main(String[] args) {

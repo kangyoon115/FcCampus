@@ -1,7 +1,9 @@
-package Poly;
+package poly;
 
 public class Cat extends Animal {
-    //재정의 하지 않음
+    public void eat(){
+        System.out.println("고양이처럼 먹다");
+    }
     public void night() {
         System.out.println("밤에 눈에서 빛이난다");
 

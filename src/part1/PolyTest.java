@@ -1,8 +1,8 @@
 package part1;
 
-import Poly.Animal;
-import Poly.Dog;
-import Poly.Cat;
+import poly.Animal;
+import poly.Dog;
+import poly.Cat;
 
 public class PolyTest {
     public static void main(String[] args) {

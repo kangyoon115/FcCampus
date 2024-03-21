@@ -1,8 +1,8 @@
 package part1;
 
-import Poly.Animal;
-import Poly.Cat;
-import Poly.Dog;
+import poly.Animal;
+import poly.Cat;
+import poly.Dog;
 
 public class PolyArrayTest {
     public static void main(String[] args) {
