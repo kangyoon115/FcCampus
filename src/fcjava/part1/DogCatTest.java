@@ -1,7 +1,7 @@
-package part1;
+package fcjava.part1;
 
-import poly.Cat;
-import poly.Dog;
+import fcjava.poly.Cat;
+import fcjava.poly.Dog;
 
 public class DogCatTest {
     public static void main(String[] args) {

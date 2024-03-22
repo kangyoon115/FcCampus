@@ -1,8 +1,8 @@
-package part1;
+package fcjava.part1;
 
-import poly.Animal;
-import poly.Dog;
-import poly.Cat;
+import fcjava.poly.Animal;
+import fcjava.poly.Dog;
+import fcjava.poly.Cat;
 
 public class PolyTest {
     public static void main(String[] args) {

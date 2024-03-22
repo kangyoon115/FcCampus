@@ -1,4 +1,4 @@
-package poly;
+package fcjava.poly;
 
 public class Radio implements RemoCon {
     //chUp(), chDown(), volUp(),volDown()

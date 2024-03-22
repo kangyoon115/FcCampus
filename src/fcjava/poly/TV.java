@@ -1,4 +1,4 @@
-package poly;
+package fcjava.poly;
 
 public class TV implements RemoCon{
     //chUp(), chDown(), volUp(),volDown()

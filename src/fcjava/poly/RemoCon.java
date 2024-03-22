@@ -1,4 +1,4 @@
-package poly;
+package fcjava.poly;
 
 public interface RemoCon {
     //추상클래스=추상메서드+구현메서드

@@ -1,4 +1,4 @@
-package poly;
+package fcjava.poly;
 //추상클래스
 public abstract class Animal {
     //추상메서드

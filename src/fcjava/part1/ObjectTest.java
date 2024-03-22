@@ -1,6 +1,6 @@
-package part1;
+package fcjava.part1;
 
-import poly.A;
+import fcjava.poly.A;
 
 public class ObjectTest {
     public static void main(String[] args) {
@@ -10,4 +10,5 @@ public class ObjectTest {
         Object ob=new A();//Upcasting
         ((A)ob).display();//Downcasting
     }
+
 }

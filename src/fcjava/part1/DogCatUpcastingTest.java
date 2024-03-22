@@ -1,8 +1,8 @@
-package part1;
+package fcjava.part1;
 
-import poly.Animal;
-import poly.Cat;
-import poly.Dog;
+import fcjava.poly.Animal;
+import fcjava.poly.Cat;
+import fcjava.poly.Dog;
 
 public class DogCatUpcastingTest {
     public static void main(String[] args)

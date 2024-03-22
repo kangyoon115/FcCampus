@@ -1,6 +1,6 @@
-package part1;
+package fcjava.part1;
 
-import poly.*;
+import fcjava.poly.*;
 
 public class InterfaceTest {
     public static void main(String[] args) {
