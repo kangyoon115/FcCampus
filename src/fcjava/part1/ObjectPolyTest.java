@@ -11,10 +11,12 @@ public class ObjectPolyTest {
         B b = new B();
         display(b);
     }
-    private static void display(A a) {
-        a.printGo();
+    private static void display(Object ob) {
+        if (ob instanceof A) {
+            ((A) ob).printGo();
+        } else {
+            ((B) ob).printGo();
+        }
     }
-    private static void display(B b) {
-        b.printGo();
-    }
+
 }
