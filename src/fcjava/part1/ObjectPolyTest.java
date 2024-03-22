@@ -11,7 +11,7 @@ public class ObjectPolyTest {
         B b = new B();
         display(b);
     }
-    private static void display(Object ob) {
+    private static void display(Object ob) { //다형성인수 활용
         if (ob instanceof A) {
             ((A) ob).printGo();
         } else {
