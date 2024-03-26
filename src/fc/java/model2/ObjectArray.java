@@ -9,7 +9,11 @@ public class ObjectArray { //배열처럼 동작하는 클래스
 
     //생성동작
     public ObjectArray() {
-        elements = new Object[DEFAULT_CAPACITY];//5개 크기배열
+        //elements = new Object[DEFAULT_CAPACITY];//5개 크기배열
+        this(5); //this(): 생성자 안에서 다른 생성자를 호출할 때 사용
+    }
+    public ObjectArray(int capacity) {
+        elements = new Object[capacity];//원하는 크기의 배열을 생성한다.
     }
 
     //저장하는 동작

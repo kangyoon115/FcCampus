@@ -7,7 +7,7 @@ public class MyObjectArrayTest {
     public static void main(String[] args) {
         //A,B,C객체를 배열 Object[]에 저장하고 출력하세요
         //Book, Movie,Member 객체를 배열에 저장하고 출력하세요
-        ObjectArray list= new ObjectArray();
+        ObjectArray list= new ObjectArray(10);
         list.add(new A());// Upcasting
         list.add(new B());
         list.add(new C());
