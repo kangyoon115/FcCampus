@@ -1,4 +1,4 @@
-package fc.java.course2.part1;
+package fc.java.course2.part2;
 
 import java.util.ArrayList;
 
